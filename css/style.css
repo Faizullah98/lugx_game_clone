@@ -155,7 +155,7 @@ header{
 
 /* Hero iamge  */
 .hero-image{
-    background: url('/img/banner-bg.jpg');
+    background: url('../img/banner-bg.jpg');
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
