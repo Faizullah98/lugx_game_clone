@@ -1,0 +1,171 @@
+@media (min-width: 320px) and (max-width: 767px){
+.container{
+        padding: 0 15px;
+    }
+    /* Header  */
+    header {
+    top: 24px;
+    }
+    .lugx_logo{
+      max-width: 100px;
+    }
+    .hamburger{
+      display: block;
+      color: white;
+    }
+    
+  .nav-links{
+    position: absolute;
+    top: 54px;
+    width: 90%;
+    flex-direction: column;
+    background: white;
+    display: none;
+    border-radius: 0px 0px 25px 25px;
+  }
+  nav.nav-links ul li{
+    display: block;
+    padding: 0px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 52px;
+  }
+  nav.nav-links ul li:last-child{
+    border-bottom: none;
+  }
+  .nav-links ul li .sign__in__btn {
+    background-color: var(--secondary-color);
+    /* display: inline-block; */
+    background: transparent;
+}
+  nav.nav-links ul li a{
+    color: #000;
+    margin-left: 0px;
+    background-color: transparent;
+  }
+  .nav-links ul li:not(:nth-child(5)) a:hover,
+.nav-links ul li:not(:nth-child(5)) a.active:not(.sign__in__btn) {
+    background-color: transparent;
+    color: #000;
+}
+   #menu-toggle:checked + .hamburger + .nav-links {
+    display: flex; /* Show menu when checkbox is checked */
+  }
+
+/* banner  */
+.hero-image {
+    padding: 150px 0px;
+    border-radius: 0px 0px 150px 150px;
+}
+.main-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+.main-banner__left .main-banner__search{
+  max-width: 100%;
+}
+.main-banner__left .main-banner__search input[type="search"] {
+    width: 57%;
+}
+.main-banner__left .main-banner__search .search-btn {
+    width: 40%;
+}
+
+.main-banner .main-banner__right .discount {
+    left: -8px;
+}
+/* game features  */
+.icon_box_wrapper{
+    grid-template-columns: repeat(1,1fr);
+}
+/* Trending games  */
+.games_list{
+    grid-template-columns: repeat(1,1fr);
+}
+.games_heading_section .view__all__btn{
+    display: none;
+}
+/* Most played games  */
+.most_played_games{
+    grid-template-columns: repeat(1,1fr);
+}
+/* game categories  */
+.game_category_list{
+    grid-template-columns: repeat(1,1fr);
+}
+/* shop newsletter  */
+.shop_newsletter_wrapper{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+.shop_col_left{
+    padding: 20px;
+}
+/* Footer  */
+footer{
+    border-radius:0px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .container{
+    max-width: 960px;
+    padding: 0 15px;
+  }
+  /* navbar  */
+  .navbar nav ul li a {
+    margin-left: -0.06rem;
+}
+/* banner  */
+.main-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+}
+.main-banner__left .main-banner__search{
+  max-width: 100%;
+}
+/* game features  */
+.icon_box_wrapper{
+    grid-template-columns: repeat(2,1fr);
+}
+/* Trending games  */
+.games_list{
+    grid-template-columns: repeat(2,1fr);
+}
+/* Most played games  */
+.most_played_games{
+    grid-template-columns: repeat(3,1fr);
+}
+/* game categories  */
+.game_category_list{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .container{
+    max-width: 960px;
+    padding: 0 15px;
+  }
+  /* navbar */
+  .nav-links ul li a {
+    margin-left: 1rem;
+}
+/* Most played games  */
+.most_played_games{
+    grid-template-columns: repeat(3,1fr);
+}
+/* game categories  */
+.game_category_list{
+    grid-template-columns: repeat(3,1fr);
+}
+}
+
+@media (min-width:1200px) and (max-width: 1399px){
+  .container{
+    max-width: 1140px;
+    padding: 0 15px;
+  }
+}
