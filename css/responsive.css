@@ -35,7 +35,6 @@
   }
   .nav-links ul li .sign__in__btn {
     background-color: var(--secondary-color);
-    /* display: inline-block; */
     background: transparent;
 }
   nav.nav-links ul li a{
@@ -102,6 +101,18 @@
 .shop_col_left{
     padding: 20px;
 }
+/* product page  */
+.game_detail_container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+/* contact us  */
+.contact-details-wrapper {
+    flex-direction: column;
+}
+.input-row {
+    flex-direction: column;
+}
 /* Footer  */
 footer{
     border-radius:0px;
@@ -142,6 +153,12 @@ footer{
 .game_category_list{
     grid-template-columns: repeat(2,1fr);
 }
+/* product page  */
+.game_detail_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+/* contact us  */
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
