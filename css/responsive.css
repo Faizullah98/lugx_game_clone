@@ -110,6 +110,9 @@
 .contact-details-wrapper {
     flex-direction: column;
 }
+.contact-details-right {
+    overflow: hidden;
+}
 .input-row {
     flex-direction: column;
 }
